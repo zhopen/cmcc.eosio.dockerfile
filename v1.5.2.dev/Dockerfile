@@ -12,3 +12,6 @@ RUN apt install -y ./eosio.cdt_1.5.0-1_amd64.deb
 
 #contract source
 RUN cd /opt && git clone -b v1.5.2 https://github.com/EOSIO/eosio.contracts.git 
+
+RUN mkdir /contracts
+COPY contracts  /contracts/

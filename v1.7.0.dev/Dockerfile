@@ -13,6 +13,6 @@ RUN apt-get update && apt install -y ./eosio_1.7.0-1-ubuntu-18.04_amd64.deb
 
 #contracts
 #contract source
-RUN cd /opt && git clone -b v1.7.0 https://github.com/EOSIO/eosio.contracts.git 
+RUN cd /opt && git clone -b v1.6.0 https://github.com/EOSIO/eosio.contracts.git 
 RUN mkdir /contracts
 COPY contracts /contracts/
