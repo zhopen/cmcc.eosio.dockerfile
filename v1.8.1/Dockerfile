@@ -1,6 +1,7 @@
 FROM ubuntu:18.04
 
-RUN apt update && apt install -y wget curl 
+RUN apt update 
+#RUN apt install -y wget curl 
 
 #eosio 
 #RUN wget https://github.com/eosio/eos/releases/download/v1.8.1/eosio_1.8.1-1-ubuntu-18.04_amd64.deb
