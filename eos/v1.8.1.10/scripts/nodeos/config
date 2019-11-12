@@ -1,0 +1,3 @@
+DATA_DIR=/eos/nodeos/data-dir
+CONFIG_DIR=/eos/nodeos/config-work
+

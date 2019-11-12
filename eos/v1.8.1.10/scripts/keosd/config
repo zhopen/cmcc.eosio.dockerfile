@@ -1,0 +1,3 @@
+export DATA_DIR=/eos/keosd/data-dir
+export HTTP_SERVER_ADDRESS=0.0.0.0:3923
+
